@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>bootstrap导航条</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <!--[if lte IE 9]>
+    <script  src="lib/html5shiv/html5shiv.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <a href="#" class="pc_banner"></a>
+            <a href="#" class="m_banner">
+                <img src="images/slide_01_2000x410.jpg" alt="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="#" class="pc_banner"></a>
+            <a href="#" class="m_banner">
+                <img src="images/slide_02_2000x410.jpg" alt="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="#" class="pc_banner"></a>
+            <a href="#" class="m_banner">
+                <img src="images/slide_03_2000x410.jpg" alt="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="#" class="pc_banner"></a>
+            <a href="#" class="m_banner">
+                <img src="images/slide_04_2000x410.jpg" alt="">
+            </a>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+</body>
+</html>
